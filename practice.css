@@ -1,0 +1,101 @@
+body {
+  background: #232323;
+  Text-align: center;
+  margin: 0;
+  font-family: "Montserrat", "Avenir";
+}
+
+
+h1 {
+  color: white;
+  margin: 0;
+  background: steelblue;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 10px 0;
+  line-height: 3rem;
+  transition: all 0.7s;
+  -moz-transition: all 0.7s;
+  -webkit-transition: all 0.7s;
+}
+
+
+#display {
+  font-size: 200%;
+}
+
+
+#container {
+  margin: 0 auto;
+  width: 30rem;
+  height: 15rem;
+  padding: 30px;
+}
+
+
+#option {
+  background: white;
+  text-align:center;
+  margin: 0 0 40px;
+  height: 30px;
+}
+ 
+ 
+button {
+  border: none;
+  background: none;
+  outline: none;
+  text-transform: uppercase;
+  height: 100%;
+  color: steelblue;
+  font-weight: 900;
+  letter-spacing: 1px;
+  font-size: inherit;
+  transition: all 0.7s;
+  -webkit-transition: all 0.7s;
+  -moz-transition: all 0.7s;
+}
+
+
+button:hover {
+  color: white;
+  background: steelblue;
+  height: 100%;
+}
+.rstB:hover {
+  padding-top: 3.5px;
+}
+
+
+#tryAgain {
+  display: inline-block;
+  width: 20%;
+  font-weight: 900;
+  letter-spacing: 1px;
+  font-size: inherit;
+}
+
+
+.selected {
+  background: steelblue;
+  border: none;
+  font-size: 20px;
+  color: white;
+  font-family: "Montserrat", "Avenir";
+}
+
+
+.square {
+  background: pink;
+  width: 25%;
+  height: 100px;
+  margin: 15px;
+  float: left;
+  border-radius: 15px;
+  transition: background 0.7s;
+  -webkit-transition: background 0.7s;
+  -moz-transition: background 0.7s;
+
+  box-shadow: 3px -3px 3px 3px white,
+              -3px 3px 3px 3px plum;
+}
